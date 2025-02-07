@@ -40,7 +40,7 @@ const Form = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://swachhata-cell-backend.vercel.app/submit", formData);
+      await axios.post("https://swachhata-cell-backend.onrender.com/submit", formData);
       alert("Response submitted successfully!");
       setFormData({
         name: "",
