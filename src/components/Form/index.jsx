@@ -57,7 +57,7 @@ const Form = () => {
         cleanlinessCity: "",
       });
     } catch (err) {
-      console.error(err);
+      console.log(err);
       alert("Error submitting response");
     }
   };
