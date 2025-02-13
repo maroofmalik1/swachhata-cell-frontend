@@ -8,8 +8,7 @@ function Success({ setAppState, AppStates }) {
 
   return (
     <div>
-      <img src="./assets/iamges/__Iphone-spinner-1.gif" alt="Loading" width="50" height="50">
-      //<p>Success</p>
+      <p>Success</p>
       <button onClick={formResetHandler}>Fill Form Again</button>
     </div>
   );
